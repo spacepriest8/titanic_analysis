@@ -36,9 +36,3 @@ Kaggle Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic
 1. Clone this repository
 2. Install requirements: `pip install -r requirements.txt`
 3. Run the Jupyter notebook: `jupyter notebook`
-
-## Key Questions to Answer
-1. What percentage of passengers survived?
-2. Did gender influence survival rates?
-3. Did passenger class (Pclass) affect survival?
-4. What was the age distribution of survivors vs non-survivors?
