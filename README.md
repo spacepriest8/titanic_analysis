@@ -32,13 +32,20 @@ Kaggle Titanic: Machine Learning from Disaster (https://www.kaggle.com/c/titanic
 - Matplotlib & Seaborn (Visualization)
 - Jupyter Notebook 
 
-## Installation
-1. Clone this repository
-2. Install requirements: `pip install -r requirements.txt`
-3. Run the Jupyter notebook: `jupyter notebook`
+## Key Findings
+1. **Overall Survival Rate**: 38.4% of passengers survived
+2. **Gender Disparity**: 74.2% of females survived vs only 18.9% of males
+3. **Class Impact**: 63% of 1st class survived vs only 24% of 3rd class
+4. **Age Factor**: Children (0-12) had 59% survival rate vs 38% overall
 
-## Key Questions to Answer
-1. What percentage of passengers survived?
-2. Did gender influence survival rates?
-3. Did passenger class (Pclass) affect survival?
-4. What was the age distribution of survivors vs non-survivors?
+## Visualizations Generated
+- `overall_survival.png`: Overall survival distribution
+- `survival_by_gender.png`: Gender-based survival analysis
+- `survival_by_class.png`: Class-based survival analysis
+- `age_distribution.png`: Age distribution of survivors
+- `correlation_heatmap.png`: Feature correlation matrix
+
+## How to Run
+1. Clone repository: `git clone https://github.com/spacepriest8/titanic_analysis.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Open notebook: `jupyter notebook notebooks/titanic_eda.ipynb`
